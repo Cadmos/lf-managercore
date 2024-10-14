@@ -1,12 +1,10 @@
-Little Fishers Task Manager © Tomi Ahola 2024
+Little Fishers Manager Core © Tomi Ahola 2024
 ---------------------------------
-This is a task manager for Little Fishers game. It is used to manage C# Tasks, queues and other task related things.
+This is a base Manager class for Little Fishers game. It is used for shared functionality between different managers and to implement the IManager interface.
 
 ---------------------------------
 DOCUMENTATION
 ---------------------------------
-Please read our online documentation for more in-depth explanations and customization options at:
-
 ---------------------------------
 SETUP
 ---------------------------------

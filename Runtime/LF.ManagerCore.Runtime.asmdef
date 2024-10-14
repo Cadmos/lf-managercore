@@ -1,7 +1,9 @@
 {
     "name": "LF.ManagerCore.Runtime",
     "rootNamespace": "LF.ManagerCore.Runtime",
-    "references": [],
+    "references": [
+        "GUID:fcc0efe46150bf5448d2477baa893042"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

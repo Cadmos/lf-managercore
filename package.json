@@ -10,6 +10,6 @@
   "type": "library",
   "documentationUrl": "",
   "dependencies": {
-    "com.lf.interfaces": "https://github.com/Cadmos/lf-interfaces.git#main"
+    "com.lf.interfaces": "git+https://github.com/Cadmos/lf-interfaces.git#main"
   }
 }

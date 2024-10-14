@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using LF.Interfaces.Runtime;
 using UnityEngine;
 
-namespace LF.Managers
+namespace LF.ManagerCore.Runtime
 {
     [Serializable]
     public abstract class ManagerCore : MonoBehaviour, IManager

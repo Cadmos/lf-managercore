@@ -1,0 +1,14 @@
+{
+    "name": "LF.ManagerCore.Editor",
+    "rootNamespace": "LF.ManagerCore.Editor",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

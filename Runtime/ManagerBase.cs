@@ -6,13 +6,13 @@ using UnityEngine;
 namespace LF.ManagerCore.Runtime
 {
     [Serializable]
-    public abstract class ManagerCore : MonoBehaviour, IManager
+    public abstract class ManagerBase : MonoBehaviour, IManager
     {
-        private static Dictionary<Type, ManagerCore> _instances = new ();
+        private static Dictionary<Type, ManagerBase> _instances = new ();
         
-        public static T GetInstance<T>() where T : ManagerCore
+        public static T GetInstance<T>() where T : ManagerBase
         {
-            _instances.TryGetValue(typeof(T), out ManagerCore instance);
+            _instances.TryGetValue(typeof(T), out ManagerBase instance);
             return instance as T;
         }
 
